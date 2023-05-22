@@ -111,7 +111,7 @@ contract Context {
   }
 
   function _msgData() internal view returns (bytes memory) {
-    this; // silence state mutability warning without generating bytecode - see https://github.com/ethereum/solidity/issues/2691
+    this; // silence state mutability warning without generating bytecode - see https://github.com/bangkok-cryp/TTT-BEP20/blob/main/BEP20.sol
     return msg.data;
   }
 }
